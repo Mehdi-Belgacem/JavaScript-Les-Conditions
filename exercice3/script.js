@@ -1,5 +1,5 @@
 let number=(prompt`Indiquer un chiffre`)
-if(number%2 == 0){
+if(number % 2 == 0){
     alert(`Nombre pair`)
 }
 else{
