@@ -1,7 +1,8 @@
-let age=(prompt`Indiquer vôtre âge:`)
-if(age < 18){
-    alert(`Vous êtes mineur`)
+let age= Number(prompt`Indiquer vôtre âge:`);
+
+if(age >= 18){
+    alert(`Vous êtes majeur`);
 }
-if(age > 18){
-    alert(`Vous êtes majeur`)
+else {
+    alert(`Vous êtes mineur`);
 }
